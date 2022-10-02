@@ -1,0 +1,110 @@
+header {
+    background: #171a21;
+    height: 104px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 30px;
+    float: left;
+    margin-right: 30px;
+}
+
+.menuitem {
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-decoration: none;
+}
+
+.menuitem:hover {
+    color: #fff;
+}
+
+.header-actions {
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    color: #b8b6b4;
+    font-size: 11px;
+}
+
+.header-actions-menu {
+    line-height: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.header-install-btn {
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    height: 21px;
+    line-height: 24px;
+    margin-right: 3px;
+}
+
+.header-install-btn-content {
+    background-color: #5c7e10;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+}
+
+.header-install-btn-content:hover {
+    color: #fff;
+}
+
+.action-link {
+    color: #b8b6b4;
+    padding: 0 4px;
+    vertical-align: top;
+}
+
+.action-link:hover {
+    color: #fff;
+}
+
+#language-link {
+    padding-right: 18px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/popups/btn_arrow_down_padded.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 4px;
+    line-height: 25px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.main-content {
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed,
+    url(https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg)
+    center top no-repeat, #181A21;
+    width: 100%;
+    height: 1350px;
+}
